@@ -68,6 +68,19 @@ main {
     overflow: hidden;
 }
 
+.bg {
+    position: absolute;
+    right: 0;
+    width: 800px;
+    height: 800px;
+    background-image: url('/assets/background.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+    z-index: -1;
+}
+
 .slider-wrapper {
     display: flex;
     transition: transform 0.5s ease-in-out;
@@ -115,7 +128,7 @@ main {
 }
 
 .hero-content button:hover {
-    background-color: #0056b3;
+    background-color: #0046c7;
 }
 
 .dot-section {
@@ -143,6 +156,139 @@ main {
 .footerdot:hover,
 .footerdot.active {
     background-color: #007BFF;
+}
+
+.service {
+    margin-top: 150px;
+    width: 100%;
+}
+
+.header-service {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    margin: 0 120px;
+}
+
+.context {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 30px;
+}
+
+.header-text {
+    margin: 30px 120px;
+}
+
+.text {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card-service {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 115px;
+}
+
+.cards {
+    padding: 30px;
+    height: 300px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.cards:hover {
+    padding: 30px;
+    height: 300px;
+    width: 300px;
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.content {
+    text-align: center;
+    font-size: 17px;
+}
+
+.p-content {
+    font-weight: 500;
+}
+
+.h-content {
+    font-weight: 600;
+}
+
+.btn-content {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-content:hover {
+    background-color: #0046c7;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer-content {
+    padding: 10px;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footlogo {
+    height: 50px;
+}
+
+.copyright {
+    font-weight: 600;
+}
+
+.about-us {
+    margin: 0 120px;
+    width: 100%;
+}
+
+.container-about-us {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.image-content-about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    margin: 0 0px;
+}
+
+.p-about {
+    font-size: 20px;
 }
 
 

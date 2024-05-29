@@ -42,3 +42,15 @@ $(document).ready(function() {
     showSlide(currentIndex);
     startSlider();
 });
+
+
+const darKMode = document.querySelector('.logo');
+const bodyColor = document.querySelector('body');
+const headerColor = document.querySelector('header');
+const pColor = document.querySelector('.p-content, .hero-content');
+
+darKMode.addEventListener('click', () => {
+    bodyColor.style.backgroundColor = 'black';
+    headerColor.style.backgroundColor = 'black';
+    pColor.style.color = "white"
+});
