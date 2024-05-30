@@ -200,7 +200,6 @@ main {
     padding: 30px;
     height: 300px;
     width: 300px;
-    background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -289,6 +288,64 @@ main {
 
 .p-about {
     font-size: 20px;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+
+/* Dark mode styles */
+
+body.dark-mode {
+    background-color: #000000;
+    color: #e0e0e0;
+}
+
+header.dark-mode {
+    background-color: #000000;
+}
+
+nav ul li.dark-mode {
+    color: #e0e0e0;
+}
+
+a.dark-mode {
+    color: white;
+    text-decoration: none;
+}
+
+.cards.dark-mode:hover {
+    background-color: #181818;
+}
+
+.hero-section.dark-mode {
+    /* background-color: #000000; */
+}
+
+.service.dark-mode,
+.about-us.dark-mode,
+.footer-content.dark-mode {
+    background-color: #000000;
+}
+
+.card.dark-mode,
+.cards.dark-mode {
+    color: #ffffff;
+}
+
+.btn-content.dark-mode {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.dot-section.dark-mode .footerdot {
+    background-color: #000000;
+}
+
+.dot-section.dark-mode .footerdot.active {
+    background-color: #bbb;
 }
 
 

@@ -12,21 +12,21 @@
 <body>
     <header>
         <nav>
-            <div class="container-logo">
-                <img src="./assets/logo.png" class="logo" />
+            <div class="container-logo" id="dark-mode-toggle">
+                <img src="./assets/logo.png" class="logo" id="logo-image" />
             </div>
             <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Service</li>
-                <li>Contact</li>
+                <li><a href="#hero-section">Home</a></li>
+                <li><a href="#services">Service</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#footer">Footer</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <div class="bg"></div>
-        <section class="hero-section">
+        <div class="bg" id="bg"></div>
+        <section class="hero-section" id="hero-section">
             <div class="slider-wrapper">
                 <div class="card">
                     <div class="hero-image">
@@ -78,9 +78,9 @@
                 <span class="footerdot" onclick="activeSlide(3)"></span>
             </div>
         </section>
-        <section class="service">
+        <section class="service" id="services">
             <div class="header-service">
-                <img src="./assets/logo.png" />
+                <img src="./assets/logo.png" id="logo-services" />
                 <span class="context">Our Services</span>
             </div>
             <div class="header-text">
@@ -91,7 +91,7 @@
         <section class="card-service">
             <div class="cards active">
                 <div class="logo-service">
-                    <img src="./assets/logo.png" />
+                    <img src="./assets/logo.png" id="logo-card1" />
                 </div>
                 <div class="content">
                     <h2 class="h-content">Mobile Application</h2>
@@ -101,7 +101,7 @@
             </div>
             <div class="cards active">
                 <div class="logo-service">
-                    <img src="./assets/logo.png" />
+                    <img src="./assets/logo.png" id="logo-card2" />
                 </div>
                 <div class="content">
                     <h2 class="h-content">Web Development</h2>
@@ -111,7 +111,7 @@
             </div>
             <div class="cards active">
                 <div class="logo-service">
-                    <img src="./assets/logo.png" />
+                    <img src="./assets/logo.png" id="logo-card3" />
                 </div>
                 <div class="content">
                     <h2 class="h-content">UI / UX Design</h2>
@@ -121,14 +121,15 @@
             </div>
         </section>
 
-        <section class="about-us">
+        <section class="about-us" id="about">
             <div class="container-about-us">
                 <div class="container-content-about">
                     <div class="image-content-about">
-                        <img src="./assets/logo.png" />
+                        <img src="./assets/logo.png" id="logo-about" />
                         <span class="context">About us</span>
                     </div>
-                    <p class="p-about">Artech Inc adalah perusahaan teknologi yang berdedikasi<br> untuk memberikan solusi inovatif dan terdepan dalam dunia<br> teknologi. Sejak didirikan, kami telah mendedikasikan diri<br> untuk menyediakan layanan terbaik dalam pengembangan<br>                        perangkat lunak, desain web, dan solusi teknologi informasi<br> lainnya kepada pelanggan kami.</p>
+                    <p class="p-about">Artech Inc adalah perusahaan teknologi yang berdedikasi<br> untuk memberikan solusi inovatif dan terdepan dalam dunia<br> teknologi. Sejak didirikan, kami telah mendedikasikan diri<br> untuk menyediakan layanan terbaik dalam pengembangan<br>perangkat
+                        lunak, desain web, dan solusi teknologi informasi<br> lainnya kepada pelanggan kami.</p>
                     <button class="btn-content" type="submit" name="button">Read More</button>
                 </div>
                 <div class="image-about-us">
@@ -140,9 +141,9 @@
     </main>
 
     <footer>
-        <div class="footer-content">
+        <div class="footer-content" id="footer">
             <div class="footer-logo">
-                <img src="/assets/logo.png" alt="Logo Perusahaan" class="footlogo">
+                <img src="/assets/logo.png" alt="Logo Perusahaan" class="footlogo" id="logo-footer">
             </div>
             <p class="copyright">Hak Cipta &copy; 2024 Artech Inc. All rights reserved.</p>
         </div>
